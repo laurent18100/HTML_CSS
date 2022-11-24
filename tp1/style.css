@@ -1,0 +1,26 @@
+div
+{
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: blue;
+    margin: 50px;
+    text-align: justify;
+    }
+p{
+    padding: 10px;
+    background-color: brown;
+    margin: 100px;
+}
+
+img
+{
+    margin: 20px;
+}
+h1
+{
+    display: inline;
+    font-family: 'Rubik Distressed', cursive;
+    font-size: 50px;
+}
