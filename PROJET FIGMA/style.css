@@ -1,0 +1,21 @@
+body {
+    background-image:url("fond-page.jpg");
+    }
+    img {
+        width: 30%;
+        margin: auto;
+        display: block;
+      }
+      h1 {
+        text-align: center;
+        font-size: 400%;
+
+      }
+
+     p{
+        text-align: center;
+        font-size: 200%;  
+     }
+     button{
+        width: 180px; height: 50px;
+     }
