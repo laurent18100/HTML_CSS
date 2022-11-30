@@ -1,0 +1,64 @@
+body {
+    background-image:url("fond-page.jpg");
+   margin:0px;
+   padding: 0px;;
+    }
+    img {
+        width: 50%;
+        margin: auto;
+        display: block;
+        
+      }
+      h1 {
+        text-align: center;
+        font-size: 400%;
+        color: #aeff00; 
+      }
+
+     p{
+        text-align: center;
+        font-size: 200%;  
+        color: #aeff00;
+        margin-left: 25%;
+        margin-right: 25%;
+     }
+     button{
+        width: 50%; 
+      
+     }
+     nav
+   {
+      display: flex;
+      flex-flow: row;
+      align-items: flex-start;
+   }
+
+  main
+  {
+   display: flex;
+   flex-flow: row;
+  }
+  article
+  {
+   flex-grow: 2;
+   display: flex;
+   flex-flow: column;
+   justify-content: center;
+  }
+  @media screen and (max-width:700px) {
+   main
+   {
+    flex-flow: column;
+    width: 100%;
+   }
+   article
+   {
+      flex-grow: 1;
+      width: 100%;
+   }
+   h1
+   {
+      font-size: 200%;
+   }
+  }
+  
