@@ -1,0 +1,13 @@
+#boiteLogin
+{
+    border:3px solid black;
+    border-radius: 25px;
+    padding: 1%;
+}
+.container
+{
+    min-height: 100vh;
+    padding-top: 15%;
+    padding-bottom: 15%;
+
+}
