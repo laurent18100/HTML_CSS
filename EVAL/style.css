@@ -7,11 +7,15 @@ h1 {
 
   img{
     width:10%;
-    flex-wrap: wrap;
+    
     margin: 20px;
     display: block;
     
   }
 header{
     background-image: url('baniere-star.jpg');
+}
+h1{
+  text-align: start;
+  margin:2%;
 }

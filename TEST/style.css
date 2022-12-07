@@ -1,0 +1,39 @@
+.container{
+    font-family: Arial, Helvetica, sans-serif;color: rgb(238, 10, 10);}
+
+accueil, forum , guide , partenaires { display: flex;  align-items: center;padding: 10px;}
+accueil {background-color: blue;}
+forum { background-color: blueviolet;}
+guide { background-color: brown;}
+partenaires { background-color: chartreuse;}
+    
+.container{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: min-content 1fr min-content;
+    height: 300px;
+}
+accueil {
+    grid-column: 1;
+    grid-row: 1;
+}
+partenaires {  
+    grid-column: 1;
+    grid-row: 1;
+}
+@media (max-width: 640px){
+   .container{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+accueil{
+    grid-column: 1;
+}
+partenaires{
+    grid-column: 1;
+    grid-row: 1;
+}
+}
+
+   
